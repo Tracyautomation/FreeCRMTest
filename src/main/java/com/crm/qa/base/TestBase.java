@@ -19,7 +19,7 @@ public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
 //__构造函数__constructor/ read properties________________________________________	
-	public TestBase() throws IOException {		
+	public TestBase(){		
 		try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com/crm"

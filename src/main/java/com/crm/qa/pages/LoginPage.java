@@ -27,7 +27,7 @@ public class LoginPage extends TestBase {
  
 	//create method
 	//initializaing the page object
-	public LoginPage() throws IOException {
+	public LoginPage(){
 		PageFactory.initElements(driver, this);
 		
 	}
@@ -39,11 +39,12 @@ public class LoginPage extends TestBase {
 	 public boolean validateMOOCImage(){
 		 return moocslogn.isDisplayed();
 	 }
-	 public HomePage login(String un ,String pw){
+	 public HomePage login(String un ,String pw) throws IOException{
 		 username.sendKeys(un);
 		 password.sendKeys(pw);
 		 submitbutton.click();
 		 return new HomePage();
+	 
 	 }
 	
 	

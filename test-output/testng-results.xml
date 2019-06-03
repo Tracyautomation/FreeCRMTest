@@ -2,53 +2,53 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10915" started-at="2019-03-13T03:28:26Z" finished-at="2019-03-13T03:28:37Z">
+  <suite name="Default suite" duration-ms="14611" started-at="2019-03-20T06:55:59Z" finished-at="2019-03-20T06:56:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10915" started-at="2019-03-13T03:28:26Z" finished-at="2019-03-13T03:28:37Z">
-      <class name="com.crm.qa.testcaases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcaases.LoginPageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="4707" started-at="2019-03-13T03:28:26Z" finished-at="2019-03-13T03:28:30Z">
+    <test name="Default test" duration-ms="14611" started-at="2019-03-20T06:55:59Z" finished-at="2019-03-20T06:56:13Z">
+      <class name="com.crm.qa.testcaases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcaases.HomePageTest@39c0f4a]" name="setup" is-config="true" duration-ms="4706" started-at="2019-03-20T06:55:59Z" finished-at="2019-03-20T06:56:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcaases.LoginPageTest@39c0f4a]" name="loginPageTitleTest" duration-ms="16" started-at="2019-03-13T03:28:30Z" finished-at="2019-03-13T03:28:30Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageLogin()[pri:1, instance:com.crm.qa.testcaases.HomePageTest@39c0f4a]" name="verifyHomePageLogin" duration-ms="1376" started-at="2019-03-20T06:56:03Z" finished-at="2019-03-20T06:56:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcaases.LoginPageTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="98" started-at="2019-03-13T03:28:30Z" finished-at="2019-03-13T03:28:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcaases.LoginPageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="2661" started-at="2019-03-13T03:28:30Z" finished-at="2019-03-13T03:28:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageImageTest()[pri:2, instance:com.crm.qa.testcaases.LoginPageTest@39c0f4a]" name="loginPageImageTest" duration-ms="38" started-at="2019-03-13T03:28:33Z" finished-at="2019-03-13T03:28:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageImageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcaases.LoginPageTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="97" started-at="2019-03-13T03:28:33Z" finished-at="2019-03-13T03:28:33Z">
+        </test-method> <!-- verifyHomePageLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcaases.HomePageTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="127" started-at="2019-03-20T06:56:05Z" finished-at="2019-03-20T06:56:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcaases.LoginPageTest@39c0f4a]" name="setUp" is-config="true" duration-ms="2735" started-at="2019-03-13T03:28:33Z" finished-at="2019-03-13T03:28:36Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcaases.HomePageTest@39c0f4a]" name="setup" is-config="true" duration-ms="3491" started-at="2019-03-20T06:56:05Z" finished-at="2019-03-20T06:56:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="loginTest()[pri:3, instance:com.crm.qa.testcaases.LoginPageTest@39c0f4a]" name="loginTest" duration-ms="426" started-at="2019-03-13T03:28:36Z" finished-at="2019-03-13T03:28:36Z">
-          <exception class="java.lang.Error">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageLogo()[pri:2, instance:com.crm.qa.testcaases.HomePageTest@39c0f4a]" name="verifyHomePageLogo" duration-ms="1222" started-at="2019-03-20T06:56:08Z" finished-at="2019-03-20T06:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcaases.HomePageTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="118" started-at="2019-03-20T06:56:10Z" finished-at="2019-03-20T06:56:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcaases.HomePageTest@39c0f4a]" name="setup" is-config="true" duration-ms="3414" started-at="2019-03-20T06:56:10Z" finished-at="2019-03-20T06:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="verifyHomePageTitleTest()[pri:3, instance:com.crm.qa.testcaases.HomePageTest@39c0f4a]" name="verifyHomePageTitleTest" duration-ms="7" started-at="2019-03-20T06:56:13Z" finished-at="2019-03-20T06:56:13Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unresolved compilation problem: 
-Default constructor cannot handle exception type IOException thrown by implicit super constructor. Must define an explicit constructor
-]]>
+              <![CDATA[expected [全部课程_IT培训精品课程-慕课网] but found [慕课网-登录]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-Default constructor cannot handle exception type IOException thrown by implicit super constructor. Must define an explicit constructor
-
-at com.crm.qa.pages.HomePage.<init>(HomePage.java:5)
-at com.crm.qa.pages.LoginPage.login(LoginPage.java:46)
-at com.crm.qa.testcaases.LoginPageTest.loginTest(LoginPageTest.java:47)
+              <![CDATA[java.lang.AssertionError: expected [全部课程_IT培训精品课程-慕课网] but found [慕课网-登录]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.crm.qa.testcaases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:32)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -76,15 +76,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcaases.LoginPageTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="98" started-at="2019-03-13T03:28:36Z" finished-at="2019-03-13T03:28:37Z">
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcaases.HomePageTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="107" started-at="2019-03-20T06:56:13Z" finished-at="2019-03-20T06:56:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcaases.LoginPageTest -->
+      </class> <!-- com.crm.qa.testcaases.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

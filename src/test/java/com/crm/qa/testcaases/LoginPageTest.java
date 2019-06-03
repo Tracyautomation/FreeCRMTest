@@ -1,7 +1,6 @@
 package com.crm.qa.testcaases;
 
 import java.io.IOException;
-import java.security.PublicKey;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -13,15 +12,13 @@ import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
 
 public class LoginPageTest extends TestBase {
-	 LoginPage loginPage;
+	LoginPage loginPage;
 	 HomePage homePage;
+	 public LoginPageTest(){
+			super();
+		}
 	
-	public LoginPageTest() throws IOException {
-		
-		super();
-		
-		
-	}
+	
 	@BeforeMethod
 	public void setUp() throws IOException{
 		
@@ -43,7 +40,7 @@ public class LoginPageTest extends TestBase {
 		
 	}
 	@Test(priority=3)
-	public void loginTest(){
+	public void loginTest() throws Exception{
 		homePage=loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		
 		

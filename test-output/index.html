@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.crm.qa.testcaases.LoginPageTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.crm.qa.testcaases.HomePageTest" hash-for-method="verifyHomePageTitleTest">verifyHomePageTitleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -116,12 +116,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.crm.qa.testcaases.LoginPageTest" hash-for-method="loginPageImageTest">loginPageImageTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.crm.qa.testcaases.HomePageTest" hash-for-method="verifyHomePageLogin">verifyHomePageLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.crm.qa.testcaases.LoginPageTest" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.crm.qa.testcaases.HomePageTest" hash-for-method="verifyHomePageLogo">verifyHomePageLogo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -139,20 +139,22 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.crm.qa.testcaases.LoginPageTest</span>
+              <span class="class-name">com.crm.qa.testcaases.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
-                  <div class="stack-trace">java.lang.Error: Unresolved compilation problem: 
-	Default constructor cannot handle exception type IOException thrown by implicit super constructor. Must define an explicit constructor
-
-	at com.crm.qa.pages.HomePage.&lt;init&gt;(HomePage.java:5)
-	at com.crm.qa.pages.LoginPage.login(LoginPage.java:46)
-	at com.crm.qa.testcaases.LoginPageTest.loginTest(LoginPageTest.java:47)
+                  <a name="verifyHomePageTitleTest">
+                  </a> <!-- verifyHomePageTitleTest -->
+                  <span class="method-name">verifyHomePageTitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [全部课程_IT培训精品课程-慕课网] but found [慕课网-登录]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.crm.qa.testcaases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -187,21 +189,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.crm.qa.testcaases.LoginPageTest</span>
+              <span class="class-name">com.crm.qa.testcaases.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginPageImageTest">
-                  </a> <!-- loginPageImageTest -->
-                  <span class="method-name">loginPageImageTest</span>
+                  <a name="verifyHomePageLogin">
+                  </a> <!-- verifyHomePageLogin -->
+                  <span class="method-name">verifyHomePageLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginPageTitleTest">
-                  </a> <!-- loginPageTitleTest -->
-                  <span class="method-name">loginPageTitleTest</span>
+                  <a name="verifyHomePageLogo">
+                  </a> <!-- verifyHomePageLogo -->
+                  <span class="method-name">verifyHomePageLogo</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -209,7 +211,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/9s/v1wrq2pj67q3yq1w1r48nvrn77c7l2/T/testng-eclipse-157616440/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/9s/v1wrq2pj67q3yq1w1r48nvrn77c7l2/T/testng-eclipse-1646946038/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -218,7 +220,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.crm.qa.testcaases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.crm.qa.testcaases.HomePageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -260,22 +262,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
-data.setCell(0, 2, 'com.crm.qa.testcaases.LoginPageTest')
-data.setCell(0, 3, 426);
+data.setCell(0, 1, 'verifyHomePageLogin')
+data.setCell(0, 2, 'com.crm.qa.testcaases.HomePageTest')
+data.setCell(0, 3, 1376);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginPageImageTest')
-data.setCell(1, 2, 'com.crm.qa.testcaases.LoginPageTest')
-data.setCell(1, 3, 38);
+data.setCell(1, 1, 'verifyHomePageLogo')
+data.setCell(1, 2, 'com.crm.qa.testcaases.HomePageTest')
+data.setCell(1, 3, 1222);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginPageTitleTest')
-data.setCell(2, 2, 'com.crm.qa.testcaases.LoginPageTest')
-data.setCell(2, 3, 16);
+data.setCell(2, 1, 'verifyHomePageTitleTest')
+data.setCell(2, 2, 'com.crm.qa.testcaases.HomePageTest')
+data.setCell(2, 3, 7);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 480 ms</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -301,44 +303,44 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.crm.qa.testcaases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.crm.qa.testcaases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
+                <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginPageTitleTest</span>
-                <span class="method-start">4707 ms</span>
+                <span class="method-name">verifyHomePageLogin</span>
+                <span class="method-start">4706 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4725 ms</span>
+                <span class="method-start">6084 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">4824 ms</span>
+                <span class="method-name">setup</span>
+                <span class="method-start">6213 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginPageImageTest</span>
-                <span class="method-start">7485 ms</span>
+                <span class="method-name">verifyHomePageLogo</span>
+                <span class="method-start">9704 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7524 ms</span>
+                <span class="method-start">10928 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">7622 ms</span>
+                <span class="method-name">setup</span>
+                <span class="method-start">11046 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">loginTest</span>
-                <span class="method-start">10357 ms</span>
+                <span class="method-name">verifyHomePageTitleTest</span>
+                <span class="method-start">14460 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10786 ms</span>
+                <span class="method-start">14470 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
